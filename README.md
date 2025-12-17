@@ -6,13 +6,13 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" alt="divider"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" alt="divider"/>
 
 Currently building software tools for robotics, control systems, and engineering automation.
 
 Check out my work at [markvision.github.io](https://markvision.github.io)
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" alt="divider"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" alt="divider"/>
 
 ### Control Systems
 
@@ -23,7 +23,7 @@ Check out my work at [markvision.github.io](https://markvision.github.io)
 - [CAD Analyzer](https://github.com/Cyber717/cad-analyzer), STL file analysis with mass and print-time estimation.
 - [File Organizer](https://github.com/Cyber717/file-organizer), zero-dependency automation for directory management.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" alt="divider"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" alt="divider"/>
 
 Links: [LinkedIn](https://linkedin.com/in/yourprofile) · [Email](mailto:your.email@example.com)
 
