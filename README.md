@@ -1,25 +1,22 @@
-<div align="center">
-
 # Mark Vision
 
-Mechatronics Engineering · Final Year
+Mechatronics Engineering student, final year.
 
-</div>
-
----
-
-I build software for robotics and control systems.
-
-**Projects:**
-
-[Autonomous Car Simulation](https://github.com/Cyber717/autonomous-car-sim) — vision-based lane following with Pure Pursuit and Stanley controllers.
-
-[CAD Analyzer](https://github.com/Cyber717/cad-analyzer) — STL analysis tool with mass and print-time estimation.
-
-[File Organizer](https://github.com/Cyber717/file-organizer) — zero-dependency directory automation.
+Currently focused on control systems, computer vision, and software automation.
 
 ---
 
-Python, C++, MATLAB · OpenCV, Control Theory, Computer Vision
+### Robotics & Control
 
-[LinkedIn](https://linkedin.com/in/yourprofile) · [Email](mailto:your.email@example.com)
+- [Autonomous Car Simulation](https://github.com/Cyber717/autonomous-car-sim), vision-based lane following using Pure Pursuit with OpenCV.
+
+### Engineering Tools
+
+- [CAD Analyzer](https://github.com/Cyber717/cad-analyzer), STL file analysis with mass and print-time estimation.
+- [File Organizer](https://github.com/Cyber717/file-organizer), zero-dependency directory automation.
+
+---
+
+Python, C++, MATLAB · OpenCV · Control Theory · SolidWorks
+
+Links: [LinkedIn](https://linkedin.com/in/yourprofile) · [Email](mailto:your.email@example.com)
