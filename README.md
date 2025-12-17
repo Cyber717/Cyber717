@@ -1,79 +1,104 @@
 # Mark Vision
 
-**Mechatronics Engineer** · Control Systems · Robotics
+**Mechatronics Engineering** · Final Year
 
 ---
 
-### 🧠 System Architecture
+## Overview
 
-```mermaid
-graph TD
-    User([Mark Vision]) -->|Specializes In| Control[Control Systems]
-    User -->|Specializes In| Soft[Software Engineering]
-    User -->|Specializes In| Auto[Automation]
+```
+┌─────────────────────────────────────────────────────────┐
+│  Building software for robotics, control systems, and   │
+│  engineering automation. Focused on bridging hardware   │
+│  and software through clean, high-performance code.     │
+└─────────────────────────────────────────────────────────┘
+```
 
-    Control -->|Tools| A[Python] & B[MATLAB] & C[C++]
-    Soft -->|Tools| D[Git] & E[OpenCV] & F[Linux]
-    Auto -->|Tools| G[SolidWorks] & H[Fusion 360]
+**Portfolio:** [markvision.github.io](https://markvision.github.io)
 
-    style User fill:#58a6ff,stroke:#58a6ff,color:#fff
-    style Control fill:#f0f6fc,stroke:#58a6ff,stroke-width:2px
-    style Soft fill:#f0f6fc,stroke:#58a6ff,stroke-width:2px
-    style Auto fill:#f0f6fc,stroke:#58a6ff,stroke-width:2px
+---
+
+## Projects
+
+### Autonomous Car Simulation
+
+```
+┌──────────────────────────────────────────────────────┐
+│  Vision-Based Lane Following                        │
+│                                                      │
+│  Input:  Camera POV (OpenCV)                       │
+│  Output: Steering angle, speed control              │
+│  Methods: Pure Pursuit, Stanley Controller         │
+└──────────────────────────────────────────────────────┘
+```
+
+**Stack:** Python · OpenCV · Pygame · NumPy  
+**Link:** [autonomous-car-sim](https://github.com/Cyber717/autonomous-car-sim)
+
+---
+
+### CAD Analyzer
+
+```
+┌──────────────────────────────────────────────────────┐
+│  STL File Analysis & Manufacturing Estimates       │
+│                                                      │
+│  Features:                                          │
+│    • Dimensions (L/W/H)                            │
+│    • Volume & surface area                          │
+│    • Mass estimation (shell + infill)              │
+│    • Print time calculation                         │
+└──────────────────────────────────────────────────────┘
+```
+
+**Stack:** Python · CustomTkinter · NumPy-STL  
+**Link:** [cad-analyzer](https://github.com/Cyber717/cad-analyzer)
+
+---
+
+### File Organizer
+
+```
+┌──────────────────────────────────────────────────────┐
+│  Zero-Dependency Directory Automation               │
+│                                                      │
+│  Capabilities:                                      │
+│    • Extension-based categorization                 │
+│    • Real-time watch mode                           │
+│    • Windows startup integration                    │
+└──────────────────────────────────────────────────────┘
+```
+
+**Stack:** Python (Standard Library)  
+**Link:** [file-organizer](https://github.com/Cyber717/file-organizer)
+
+---
+
+## Technical Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | Python, C++, MATLAB, JavaScript |
+| **Libraries** | OpenCV, NumPy, CustomTkinter |
+| **Tools** | Git, SolidWorks, Fusion 360, Linux |
+| **Domains** | Control Systems, Computer Vision, Path Planning |
+
+---
+
+## Contact
+
+```
+┌──────────────────────────────────────────────────────┐
+│  LinkedIn: linkedin.com/in/yourprofile              │
+│  Email:    your.email@example.com                    │
+│  GitHub:   github.com/Cyber717                       │
+└──────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### 🛠️ Deployed Projects
+<div align="center">
 
-#### 1. Autonomous Vehicle Simulation
-*Lane-following implementation using computer vision and control theory.*
+*Engineering solutions through code*
 
-```mermaid
-flowchart LR
-    Cam[Camera Input] -->|OpenCV| Vision[Lane Detection]
-    Vision -->|Path Error| Controller{Controller}
-    
-    Controller -- Heading Error --> Stanley[Stanley Control]
-    Controller -- Look-Ahead --> Pure[Pure Pursuit]
-    
-    Stanley --> Steer[Steering Output]
-    Pure --> Steer
-
-    style Cam fill:#1f2328,stroke:#58a6ff,color:#fff
-    style Steer fill:#1f2328,stroke:#58a6ff,color:#fff
-    style Controller fill:#58a6ff,stroke:#58a6ff,color:#fff
-```
-→ **[View Repository](https://github.com/Cyber717/autonomous-car-sim)**
-
-<br>
-
-#### 2. CAD Analyzer
-*Desktop utility for manufacturing estimation.*
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant App
-    participant Engine as Mesh Engine
-    
-    User->>App: Drag & Drop STL
-    App->>Engine: Calculate Volume & Surface
-    Engine->>Engine: Shell vs Infill Mass
-    Engine-->>App: Return Estimates
-    App-->>User: Display Time & Cost
-
-```
-→ **[View Repository](https://github.com/Cyber717/cad-analyzer)**
-
----
-
-### ⚡ Quick Status
-
-| Attribute | Status |
-| :--- | :--- |
-| **Education** | Final Year Mechatronics Engineering |
-| **Focus** | Bridging Hardware & Software |
-| **Location** | Available for Remote/Relocation |
-| **Contact** | [your.email@example.com](mailto:your.email@example.com) |
-
+</div>
