@@ -1,104 +1,105 @@
 # Mark Vision
 
-**Mechatronics Engineering** · Final Year
+$$
+\text{Mechatronics Engineer} \mid \text{Final Year} \mid \text{Control Systems} \rightarrow \text{Robotics}
+$$
 
 ---
 
-## Overview
+## Definition
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  Building software for robotics, control systems, and   │
-│  engineering automation. Focused on bridging hardware   │
-│  and software through clean, high-performance code.     │
-└─────────────────────────────────────────────────────────┘
-```
+Let $\mathcal{P}$ be the set of all projects, and $\mathcal{S}$ be the set of all skills. Define the mapping:
 
-**Portfolio:** [markvision.github.io](https://markvision.github.io)
+$$
+f: \mathcal{P} \times \mathcal{S} \rightarrow \mathbb{R}^+
+$$
+
+where $f(p, s)$ represents the proficiency level of skill $s$ applied to project $p$.
 
 ---
 
-## Projects
+## System Specification
 
-### Autonomous Car Simulation
+### State Variables
 
-```
-┌──────────────────────────────────────────────────────┐
-│  Vision-Based Lane Following                        │
-│                                                      │
-│  Input:  Camera POV (OpenCV)                       │
-│  Output: Steering angle, speed control              │
-│  Methods: Pure Pursuit, Stanley Controller         │
-└──────────────────────────────────────────────────────┘
-```
+| Variable | Domain | Description |
+|----------|--------|-------------|
+| $\lambda$ | $\{\text{Python}, \text{C++}, \text{MATLAB}\}$ | Primary languages |
+| $\tau$ | $\{\text{OpenCV}, \text{NumPy}, \text{Git}\}$ | Toolchain |
+| $\delta$ | $\{\text{Control}, \text{Vision}, \text{Planning}\}$ | Domain expertise |
 
-**Stack:** Python · OpenCV · Pygame · NumPy  
-**Link:** [autonomous-car-sim](https://github.com/Cyber717/autonomous-car-sim)
+### Projects
 
----
+#### $\text{Project}_1$: Autonomous Vehicle Simulation
 
-### CAD Analyzer
+**Objective:** Implement vision-based lane following using camera input.
 
-```
-┌──────────────────────────────────────────────────────┐
-│  STL File Analysis & Manufacturing Estimates       │
-│                                                      │
-│  Features:                                          │
-│    • Dimensions (L/W/H)                            │
-│    • Volume & surface area                          │
-│    • Mass estimation (shell + infill)              │
-│    • Print time calculation                         │
-└──────────────────────────────────────────────────────┘
-```
+**Algorithm:**
 
-**Stack:** Python · CustomTkinter · NumPy-STL  
-**Link:** [cad-analyzer](https://github.com/Cyber717/cad-analyzer)
+$$
+\begin{aligned}
+\text{steering\_angle} &= \text{PurePursuit}(\mathbf{p}_{car}, \mathbf{p}_{goal}, d_{lookahead}) \\
+\text{where} \quad \mathbf{p}_{goal} &= \arg\min_{\mathbf{p} \in \mathcal{L}} \|\mathbf{p} - \mathbf{p}_{car}\|_2 = d_{lookahead}
+\end{aligned}
+$$
+
+**Repository:** [`autonomous-car-sim`](https://github.com/Cyber717/autonomous-car-sim)
 
 ---
 
-### File Organizer
+#### $\text{Project}_2$: CAD Analyzer
 
-```
-┌──────────────────────────────────────────────────────┐
-│  Zero-Dependency Directory Automation               │
-│                                                      │
-│  Capabilities:                                      │
-│    • Extension-based categorization                 │
-│    • Real-time watch mode                           │
-│    • Windows startup integration                    │
-└──────────────────────────────────────────────────────┘
-```
+**Objective:** Analyze STL meshes and estimate manufacturing parameters.
 
-**Stack:** Python (Standard Library)  
-**Link:** [file-organizer](https://github.com/Cyber717/file-organizer)
+**Computation:**
+
+$$
+\begin{aligned}
+M_{total} &= M_{shell} + M_{infill} \\
+M_{shell} &= \rho \cdot A_{surface} \cdot t_{wall} \cdot n_{walls} \\
+M_{infill} &= \rho \cdot (V_{total} - V_{shell}) \cdot \eta_{infill}
+\end{aligned}
+$$
+
+**Repository:** [`cad-analyzer`](https://github.com/Cyber717/cad-analyzer)
 
 ---
 
-## Technical Stack
+#### $\text{Project}_3$: File Organizer
 
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | Python, C++, MATLAB, JavaScript |
-| **Libraries** | OpenCV, NumPy, CustomTkinter |
-| **Tools** | Git, SolidWorks, Fusion 360, Linux |
-| **Domains** | Control Systems, Computer Vision, Path Planning |
+**Objective:** Automate file categorization based on extension mapping.
+
+**Function:**
+
+$$
+\text{category}(f) = \begin{cases}
+\mathcal{D} & \text{if } \text{ext}(f) \in \{.pdf, .docx, .txt\} \\
+\mathcal{M} & \text{if } \text{ext}(f) \in \{.jpg, .png, .mp4\} \\
+\mathcal{C} & \text{if } \text{ext}(f) \in \{.py, .js, .cpp\} \\
+\mathcal{O} & \text{otherwise}
+\end{cases}
+$$
+
+**Repository:** [`file-organizer`](https://github.com/Cyber717/file-organizer)
 
 ---
 
 ## Contact
 
-```
-┌──────────────────────────────────────────────────────┐
-│  LinkedIn: linkedin.com/in/yourprofile              │
-│  Email:    your.email@example.com                    │
-│  GitHub:   github.com/Cyber717                       │
-└──────────────────────────────────────────────────────┘
-```
+$$
+\begin{aligned}
+\text{Email} &\in \mathbb{E} \\
+\text{LinkedIn} &\in \mathbb{L} \\
+\text{GitHub} &\in \mathbb{G}
+\end{aligned}
+$$
+
+where $\mathbb{E} = \{\text{your.email@example.com}\}$, $\mathbb{L} = \{\text{linkedin.com/in/yourprofile}\}$, $\mathbb{G} = \{\text{github.com/Cyber717}\}$.
 
 ---
 
 <div align="center">
 
-*Engineering solutions through code*
+*Currently seeking: $\text{position} \in \{\text{Robotics}, \text{Embedded Systems}, \text{Software Engineering}\}$*
 
 </div>
