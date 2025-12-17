@@ -1,97 +1,104 @@
-<div align="center">
+# Mark Vision
 
-# MARK VISION
-**MECHATRONICS ENGINEER**
-
----
-
-$\text{Project Documentation and Portfolio Overview}$  
-$\text{v2025.03}$
+```
+STATUS: Final Year Mechatronics Engineering Student
+FOCUS:  Control Systems • Robotics • Software Automation
+STACK:  Python, C++, MATLAB
+```
 
 ---
 
-</div>
+## SYSTEM OVERVIEW
 
-## § 1. Technical Specification
-
-The following matrices define the core technical competencies and focus areas.
-
-$$
-\mathbf{Languages} = \begin{bmatrix} 
-\text{Python} & \text{C++} \\ 
-\text{MATLAB} & \text{JavaScript} 
-\end{bmatrix}
-\quad
-\mathbf{Frameworks} = \begin{bmatrix} 
-\text{OpenCV} & \text{Pygame} \\ 
-\text{NumPy} & \text{CustomTkinter} 
-\end{bmatrix}
-$$
-
-$$
-\mathbf{Expertise} = \begin{pmatrix} 
-\text{Control Systems} \\ 
-\text{Computer Vision} \\ 
-\text{Path Planning} \\ 
-\text{GUI Engineering} 
-\end{pmatrix}
-$$
+Building software tools that bridge hardware and software. Focused on control theory, computer vision, and engineering automation. Open to opportunities in robotics and embedded systems.
 
 ---
 
-## § 2. Project Modules
+## PROJECTS
 
-### [M.01] Autonomous Vehicle Simulation
-$\text{Implementation of vision-based path tracking controllers.}$
+<table>
+<tr><td>
 
-$$
-\text{Control Laws} \implies \begin{cases} 
-\delta = \arctan\left(\frac{2L \sin \alpha}{l_d}\right) & \text{(Pure Pursuit)} \\ 
-\theta_e + \arctan\left(\frac{ke_y}{v}\right) & \text{(Stanley)} 
-\end{cases}
-$$
+### `autonomous-car-sim`
 
-- **Focus:** Closing the loop between virtual camera perception and bicycle model car physics.
-- **Source:** [/autonomous-car-sim](https://github.com/Cyber717/autonomous-car-sim)
+**TYPE** · Control Systems  
+**STATUS** · Stable  
+**TECH** · Python, OpenCV, Pygame
+
+Vision-based lane following using Pure Pursuit and Stanley controllers. The vehicle navigates using only camera input processed through OpenCV.
+
+**Key Features:**
+- Real-time lane detection from virtual camera POV
+- Two industry-standard path-tracking algorithms
+- Interactive parameter tuning interface
+
+[→ View Repository](https://github.com/Cyber717/autonomous-car-sim)
+
+</td></tr>
+<tr><td>
+
+### `cad-analyzer`
+
+**TYPE** · Engineering Tool  
+**STATUS** · Stable  
+**TECH** · Python, CustomTkinter, NumPy-STL
+
+Desktop application for STL file analysis. Provides dimensions, volume, and manufacturing estimates without heavy CAD software.
+
+**Key Features:**
+- Drag-and-drop interface with batch processing
+- Slicer-like mass calculation (shell + infill volumes)
+- Export to CSV, JSON, or clipboard
+
+[→ View Repository](https://github.com/Cyber717/cad-analyzer)
+
+</td></tr>
+<tr><td>
+
+### `file-organizer`
+
+**TYPE** · Automation Utility  
+**STATUS** · Deployed  
+**TECH** · Python (Standard Library)
+
+Zero-dependency automation tool for directory management. Sorts files by extension with real-time monitoring.
+
+**Key Features:**
+- Watch mode for continuous organization
+- Windows startup integration
+- No external dependencies required
+
+[→ View Repository](https://github.com/Cyber717/file-organizer)
+
+</td></tr>
+</table>
 
 ---
 
-### [M.02] CAD Analyzer Utility
-$\text{Numerical analysis of STL meshes for manufacturing estimation.}$
+## TECHNICAL CAPABILITIES
 
-$$
-\sum \text{Mass} = \rho \cdot \iint_S \text{thickness} \, dS + \rho \cdot \iiint_{V_{int}} \phi \, dV
-$$
-
-- **Focus:** Computational volume/mass estimation using shell + variable infill density $\phi$.
-- **Source:** [/cad-analyzer](https://github.com/Cyber717/cad-analyzer)
-
----
-
-### [M.03] OS File Organizer
-$\text{Deterministic mapping of file extensions to directory hierarchies.}$
-
-$$
-\mathcal{O}: \text{Directory} \to \text{Structured Tree}
-$$
-
-- **Focus:** High-performance automation using standard library primitives for maximum portability.
-- **Source:** [/file-organizer](https://github.com/Cyber717/file-organizer)
+| Domain | Technologies |
+|--------|-------------|
+| **Languages** | Python, C++, JavaScript, MATLAB |
+| **Robotics** | Control Theory, Path Planning, Computer Vision |
+| **Frameworks** | OpenCV, NumPy, Pygame, CustomTkinter |
+| **Engineering** | SolidWorks, Fusion 360, CAD/CAM |
+| **Tools** | Git, Linux, VS Code |
 
 ---
 
-## § 3. Connection Parameters
+## CONTACT
 
-$\text{Direct communication channels:}$
-
-- **Mail:** `your.email@example.com`
-- **LinkedIn:** `linkedin.com/in/yourprofile`
-- **GPG Key:** `0xDEADBEEF...`
+```
+EMAIL     your.email@example.com
+LINKEDIN  linkedin.com/in/yourprofile
+GITHUB    github.com/Cyber717
+```
 
 ---
 
-<div align="center">
+<div align="right">
 
-$\square$ $\text{End of Documentation}$
+*Built with precision.*
 
 </div>
