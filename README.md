@@ -1,105 +1,97 @@
-# Mark Vision
+<div align="center">
+
+# MARK VISION
+**MECHATRONICS ENGINEER**
+
+---
+
+$\text{Project Documentation and Portfolio Overview}$  
+$\text{v2025.03}$
+
+---
+
+</div>
+
+## § 1. Technical Specification
+
+The following matrices define the core technical competencies and focus areas.
 
 $$
-\text{Mechatronics Engineer} \mid \text{Final Year} \mid \text{Control Systems} \rightarrow \text{Robotics}
+\mathbf{Languages} = \begin{bmatrix} 
+\text{Python} & \text{C++} \\ 
+\text{MATLAB} & \text{JavaScript} 
+\end{bmatrix}
+\quad
+\mathbf{Frameworks} = \begin{bmatrix} 
+\text{OpenCV} & \text{Pygame} \\ 
+\text{NumPy} & \text{CustomTkinter} 
+\end{bmatrix}
+$$
+
+$$
+\mathbf{Expertise} = \begin{pmatrix} 
+\text{Control Systems} \\ 
+\text{Computer Vision} \\ 
+\text{Path Planning} \\ 
+\text{GUI Engineering} 
+\end{pmatrix}
 $$
 
 ---
 
-## Definition
+## § 2. Project Modules
 
-Let $\mathcal{P}$ be the set of all projects, and $\mathcal{S}$ be the set of all skills. Define the mapping:
-
-$$
-f: \mathcal{P} \times \mathcal{S} \rightarrow \mathbb{R}^+
-$$
-
-where $f(p, s)$ represents the proficiency level of skill $s$ applied to project $p$.
-
----
-
-## System Specification
-
-### State Variables
-
-| Variable | Domain | Description |
-|----------|--------|-------------|
-| $\lambda$ | $\{\text{Python}, \text{C++}, \text{MATLAB}\}$ | Primary languages |
-| $\tau$ | $\{\text{OpenCV}, \text{NumPy}, \text{Git}\}$ | Toolchain |
-| $\delta$ | $\{\text{Control}, \text{Vision}, \text{Planning}\}$ | Domain expertise |
-
-### Projects
-
-#### $\text{Project}_1$: Autonomous Vehicle Simulation
-
-**Objective:** Implement vision-based lane following using camera input.
-
-**Algorithm:**
+### [M.01] Autonomous Vehicle Simulation
+$\text{Implementation of vision-based path tracking controllers.}$
 
 $$
-\begin{aligned}
-\text{steering\_angle} &= \text{PurePursuit}(\mathbf{p}_{car}, \mathbf{p}_{goal}, d_{lookahead}) \\
-\text{where} \quad \mathbf{p}_{goal} &= \arg\min_{\mathbf{p} \in \mathcal{L}} \|\mathbf{p} - \mathbf{p}_{car}\|_2 = d_{lookahead}
-\end{aligned}
-$$
-
-**Repository:** [`autonomous-car-sim`](https://github.com/Cyber717/autonomous-car-sim)
-
----
-
-#### $\text{Project}_2$: CAD Analyzer
-
-**Objective:** Analyze STL meshes and estimate manufacturing parameters.
-
-**Computation:**
-
-$$
-\begin{aligned}
-M_{total} &= M_{shell} + M_{infill} \\
-M_{shell} &= \rho \cdot A_{surface} \cdot t_{wall} \cdot n_{walls} \\
-M_{infill} &= \rho \cdot (V_{total} - V_{shell}) \cdot \eta_{infill}
-\end{aligned}
-$$
-
-**Repository:** [`cad-analyzer`](https://github.com/Cyber717/cad-analyzer)
-
----
-
-#### $\text{Project}_3$: File Organizer
-
-**Objective:** Automate file categorization based on extension mapping.
-
-**Function:**
-
-$$
-\text{category}(f) = \begin{cases}
-\mathcal{D} & \text{if } \text{ext}(f) \in \{.pdf, .docx, .txt\} \\
-\mathcal{M} & \text{if } \text{ext}(f) \in \{.jpg, .png, .mp4\} \\
-\mathcal{C} & \text{if } \text{ext}(f) \in \{.py, .js, .cpp\} \\
-\mathcal{O} & \text{otherwise}
+\text{Control Laws} \implies \begin{cases} 
+\delta = \arctan\left(\frac{2L \sin \alpha}{l_d}\right) & \text{(Pure Pursuit)} \\ 
+\theta_e + \arctan\left(\frac{ke_y}{v}\right) & \text{(Stanley)} 
 \end{cases}
 $$
 
-**Repository:** [`file-organizer`](https://github.com/Cyber717/file-organizer)
+- **Focus:** Closing the loop between virtual camera perception and bicycle model car physics.
+- **Source:** [/autonomous-car-sim](https://github.com/Cyber717/autonomous-car-sim)
 
 ---
 
-## Contact
+### [M.02] CAD Analyzer Utility
+$\text{Numerical analysis of STL meshes for manufacturing estimation.}$
 
 $$
-\begin{aligned}
-\text{Email} &\in \mathbb{E} \\
-\text{LinkedIn} &\in \mathbb{L} \\
-\text{GitHub} &\in \mathbb{G}
-\end{aligned}
+\sum \text{Mass} = \rho \cdot \iint_S \text{thickness} \, dS + \rho \cdot \iiint_{V_{int}} \phi \, dV
 $$
 
-where $\mathbb{E} = \{\text{your.email@example.com}\}$, $\mathbb{L} = \{\text{linkedin.com/in/yourprofile}\}$, $\mathbb{G} = \{\text{github.com/Cyber717}\}$.
+- **Focus:** Computational volume/mass estimation using shell + variable infill density $\phi$.
+- **Source:** [/cad-analyzer](https://github.com/Cyber717/cad-analyzer)
+
+---
+
+### [M.03] OS File Organizer
+$\text{Deterministic mapping of file extensions to directory hierarchies.}$
+
+$$
+\mathcal{O}: \text{Directory} \to \text{Structured Tree}
+$$
+
+- **Focus:** High-performance automation using standard library primitives for maximum portability.
+- **Source:** [/file-organizer](https://github.com/Cyber717/file-organizer)
+
+---
+
+## § 3. Connection Parameters
+
+$\text{Direct communication channels:}$
+
+- **Mail:** `your.email@example.com`
+- **LinkedIn:** `linkedin.com/in/yourprofile`
+- **GPG Key:** `0xDEADBEEF...`
 
 ---
 
 <div align="center">
 
-*Currently seeking: $\text{position} \in \{\text{Robotics}, \text{Embedded Systems}, \text{Software Engineering}\}$*
+$\square$ $\text{End of Documentation}$
 
 </div>
