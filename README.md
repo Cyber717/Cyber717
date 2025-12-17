@@ -1,52 +1,103 @@
-<div align="center">
-
 # Mark Vision
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=20&duration=3000&pause=1000&color=58a6ff&center=true&vCenter=true&width=500&lines=Mechatronics+Engineering+Final+Year;Building+software+for+robotics+and+automation;Python,+C++,+MATLAB" alt="Typing Animation" />
+> **Mechatronics Engineering** · Final Year · Control Systems & Robotics
 
-</div>
+---
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" alt="divider"/>
+## Abstract
 
-Currently building software tools for robotics, control systems, and engineering automation.
+Building software tools that bridge hardware and software—focused on control systems, computer vision, and engineering automation. Open to full-time opportunities in robotics, embedded systems, or software engineering.
 
-Check out my work at [markvision.github.io](https://markvision.github.io)
+---
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" alt="divider"/>
+## Technical Profile
 
-### 🕹️ Control Systems
+$$
+\text{Skills} = \{\text{Python}, \text{C++}, \text{MATLAB}, \text{JavaScript}\}
+$$
 
-- **[Autonomous Car Simulation](https://github.com/Cyber717/autonomous-car-sim)**  
-  Vision-based lane following utilizing **Pure Pursuit** and **Stanley** controllers.
+$$
+\text{Domains} = \{\text{Control Theory}, \text{Computer Vision}, \text{Path Planning}, \text{GUI Development}\}
+$$
 
-### 🛠️ Engineering Tools
+$$
+\text{Tools} = \{\text{OpenCV}, \text{NumPy}, \text{Git}, \text{SolidWorks}, \text{Fusion 360}\}
+$$
 
-- **[CAD Analyzer](https://github.com/Cyber717/cad-analyzer)**  
-  STL file analysis with mass and print-time estimation algorithms.
+---
 
-- **[File Organizer](https://github.com/Cyber717/file-organizer)**  
-  Zero-dependency automation for directory management and cleanup.
+## Featured Work
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" alt="divider"/>
+### I. Autonomous Vehicle Simulation
 
-### 📊 Development Activity
+A vision-based 2D simulation for lane following using camera input.
+
+```
+Controller(t) = PurePursuit(θ, d) ∪ Stanley(ψ, e)
+
+where:
+    θ = heading angle
+    d = look-ahead distance  
+    ψ = heading error
+    e = cross-track error
+```
+
+**Implementation:** Python · OpenCV · Pygame  
+**Repository:** [autonomous-car-sim](https://github.com/Cyber717/autonomous-car-sim)
+
+---
+
+### II. CAD Analyzer
+
+Desktop application for STL mesh analysis with manufacturing estimates.
+
+```
+Mass = ρ × (V_shell + V_infill × η)
+
+where:
+    ρ = material density (g/cm³)
+    V_shell = surface_area × wall_thickness × n_walls
+    V_infill = (V_total - V_shell) × infill_percentage
+    η = infill modifier
+```
+
+**Implementation:** Python · CustomTkinter · NumPy-STL  
+**Repository:** [cad-analyzer](https://github.com/Cyber717/cad-analyzer)
+
+---
+
+### III. File Organizer
+
+Zero-dependency automation utility for directory management.
+
+```
+f: File → Category
+
+f(x) = {
+    "Documents"  if ext(x) ∈ {.pdf, .docx, .txt}
+    "Media"      if ext(x) ∈ {.jpg, .png, .mp4}
+    "Code"       if ext(x) ∈ {.py, .js, .cpp}
+    "Other"      otherwise
+}
+```
+
+**Implementation:** Python (Standard Library)  
+**Repository:** [file-organizer](https://github.com/Cyber717/file-organizer)
+
+---
+
+## Contact
+
+```
+Email    := your.email@example.com
+LinkedIn := linkedin.com/in/yourprofile
+GitHub   := github.com/Cyber717
+```
+
+---
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</div>
 
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Cyber717&theme=transparent&hide_border=true&stroke=0000&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="400" alt="streak"/>
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png" alt="divider"/>
-
-<div align="center">
-
-[LinkedIn](https://linkedin.com/in/yourprofile) · [Email](mailto:your.email@example.com)
+*"First, solve the problem. Then, write the code."*
 
 </div>
