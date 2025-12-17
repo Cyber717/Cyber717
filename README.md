@@ -1,103 +1,79 @@
 # Mark Vision
 
-> **Mechatronics Engineering** · Final Year · Control Systems & Robotics
+**Mechatronics Engineer** · Control Systems · Robotics
 
 ---
 
-## Abstract
+### 🧠 System Architecture
 
-Building software tools that bridge hardware and software—focused on control systems, computer vision, and engineering automation. Open to full-time opportunities in robotics, embedded systems, or software engineering.
+```mermaid
+graph TD
+    User([Mark Vision]) -->|Specializes In| Control[Control Systems]
+    User -->|Specializes In| Soft[Software Engineering]
+    User -->|Specializes In| Auto[Automation]
 
----
+    Control -->|Tools| A[Python] & B[MATLAB] & C[C++]
+    Soft -->|Tools| D[Git] & E[OpenCV] & F[Linux]
+    Auto -->|Tools| G[SolidWorks] & H[Fusion 360]
 
-## Technical Profile
-
-$$
-\text{Skills} = \{\text{Python}, \text{C++}, \text{MATLAB}, \text{JavaScript}\}
-$$
-
-$$
-\text{Domains} = \{\text{Control Theory}, \text{Computer Vision}, \text{Path Planning}, \text{GUI Development}\}
-$$
-
-$$
-\text{Tools} = \{\text{OpenCV}, \text{NumPy}, \text{Git}, \text{SolidWorks}, \text{Fusion 360}\}
-$$
-
----
-
-## Featured Work
-
-### I. Autonomous Vehicle Simulation
-
-A vision-based 2D simulation for lane following using camera input.
-
-```
-Controller(t) = PurePursuit(θ, d) ∪ Stanley(ψ, e)
-
-where:
-    θ = heading angle
-    d = look-ahead distance  
-    ψ = heading error
-    e = cross-track error
-```
-
-**Implementation:** Python · OpenCV · Pygame  
-**Repository:** [autonomous-car-sim](https://github.com/Cyber717/autonomous-car-sim)
-
----
-
-### II. CAD Analyzer
-
-Desktop application for STL mesh analysis with manufacturing estimates.
-
-```
-Mass = ρ × (V_shell + V_infill × η)
-
-where:
-    ρ = material density (g/cm³)
-    V_shell = surface_area × wall_thickness × n_walls
-    V_infill = (V_total - V_shell) × infill_percentage
-    η = infill modifier
-```
-
-**Implementation:** Python · CustomTkinter · NumPy-STL  
-**Repository:** [cad-analyzer](https://github.com/Cyber717/cad-analyzer)
-
----
-
-### III. File Organizer
-
-Zero-dependency automation utility for directory management.
-
-```
-f: File → Category
-
-f(x) = {
-    "Documents"  if ext(x) ∈ {.pdf, .docx, .txt}
-    "Media"      if ext(x) ∈ {.jpg, .png, .mp4}
-    "Code"       if ext(x) ∈ {.py, .js, .cpp}
-    "Other"      otherwise
-}
-```
-
-**Implementation:** Python (Standard Library)  
-**Repository:** [file-organizer](https://github.com/Cyber717/file-organizer)
-
----
-
-## Contact
-
-```
-Email    := your.email@example.com
-LinkedIn := linkedin.com/in/yourprofile
-GitHub   := github.com/Cyber717
+    style User fill:#58a6ff,stroke:#58a6ff,color:#fff
+    style Control fill:#f0f6fc,stroke:#58a6ff,stroke-width:2px
+    style Soft fill:#f0f6fc,stroke:#58a6ff,stroke-width:2px
+    style Auto fill:#f0f6fc,stroke:#58a6ff,stroke-width:2px
 ```
 
 ---
 
-<div align="center">
+### 🛠️ Deployed Projects
 
-*"First, solve the problem. Then, write the code."*
+#### 1. Autonomous Vehicle Simulation
+*Lane-following implementation using computer vision and control theory.*
 
-</div>
+```mermaid
+flowchart LR
+    Cam[Camera Input] -->|OpenCV| Vision[Lane Detection]
+    Vision -->|Path Error| Controller{Controller}
+    
+    Controller -- Heading Error --> Stanley[Stanley Control]
+    Controller -- Look-Ahead --> Pure[Pure Pursuit]
+    
+    Stanley --> Steer[Steering Output]
+    Pure --> Steer
+
+    style Cam fill:#1f2328,stroke:#58a6ff,color:#fff
+    style Steer fill:#1f2328,stroke:#58a6ff,color:#fff
+    style Controller fill:#58a6ff,stroke:#58a6ff,color:#fff
+```
+→ **[View Repository](https://github.com/Cyber717/autonomous-car-sim)**
+
+<br>
+
+#### 2. CAD Analyzer
+*Desktop utility for manufacturing estimation.*
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant App
+    participant Engine as Mesh Engine
+    
+    User->>App: Drag & Drop STL
+    App->>Engine: Calculate Volume & Surface
+    Engine->>Engine: Shell vs Infill Mass
+    Engine-->>App: Return Estimates
+    App-->>User: Display Time & Cost
+
+```
+→ **[View Repository](https://github.com/Cyber717/cad-analyzer)**
+
+---
+
+### ⚡ Quick Status
+
+| Attribute | Status |
+| :--- | :--- |
+| **Education** | Final Year Mechatronics Engineering |
+| **Focus** | Bridging Hardware & Software |
+| **Location** | Available for Remote/Relocation |
+| **Contact** | [your.email@example.com](mailto:your.email@example.com) |
+
