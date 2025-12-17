@@ -1,76 +1,38 @@
-# <div align="center">CONSOLE // ACCESS_GRANTED</div>
+# Youssef Shehab
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=5eead4&center=true&vCenter=true&width=500&lines=$+initializing+environment...;$+loading+mechatronics_modules...;$+system_status:+READY" alt="Terminal Interface" />
-</div>
+**Mechatronics Engineering Student** · Graduating 2025
 
----
-
-### 🖥️ systeminfo
-
-```bash
-cyber717@portfolio:~$ neofetch
-```
-
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Cyber717&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=5eead4&text_color=a9b1d6&icon_color=5eead4" />
-
-**OS**: Mechatronics Engineering (Final Year)  
-**Kernel**: Python / Software Engineering  
-**Uptime**: 4+ years of building & breaking things  
-**Shell**: powershell (Windows) / zsh (Linux)  
-**Resolution**: High-Fidelity Simulations & Tooling  
-**Focus**: Robotics, Control Systems, & Software Automation  
+I build software tools for robotics, automation, and engineering workflows. My work focuses on bridging hardware and software—from control systems to desktop applications.
 
 ---
 
-### 🛠️ technical_stack
+## Projects
 
-```javascript
-const expertise = {
-  languages:  ["Python", "C++", "JavaScript", "MATLAB"],
-  frameworks: ["OpenCV", "Pygame", "NumPy", "CustomTkinter"],
-  robotics:   ["Control Theory", "Path Planning", "Computer Vision"],
-  tools:      ["Git", "CAD (SolidWorks/Fusion360)", "Linux", "VS Code"]
-};
-```
+### Autonomous Vehicle Simulation
+A vision-based 2D simulation implementing Pure Pursuit and Stanley controllers for lane following. Built with Python, OpenCV, and Pygame.
 
----
+→ [View Repository](https://github.com/Cyber717/autonomous-car-sim)
 
-### 🚀 featured_projects
+### CAD Analyzer
+Desktop application for analyzing STL files. Calculates dimensions, volume, mass estimates, and 3D print time using shell + infill algorithms.
 
-#### [01] Autonomous Car Simulation
-> **Status**: `STABLE` | **Core**: `OpenCV`, `Pygame`, `Control Theory`
-*   **The Challenge**: Engineering a 2D vehicle that "sees" through a virtual camera POV.
-*   **Key Implementations**: Pure Pursuit & Stanley Controllers for high-precision path tracking.
-*   **Outcome**: Successfully simulated real-time lane detection and autonomous navigation at variable speeds.
+→ [View Repository](https://github.com/Cyber717/cad-analyzer)
 
-#### [02] CAD Analyzer Utility
-> **Status**: `STABLE` | **Core**: `NumPy`, `STL-Processing`, `GUI`
-*   **The Challenge**: Bridging the gap between raw 3D mesh data and manufacturing estimates.
-*   **Key Implementations**: Custom algorithms for mass estimation (shell vs. infill volume) and print-time heuristics.
-*   **Outcome**: A standalone tool providing ±30% accuracy on complex geometries without opening heavy CAD software.
+### File Organizer
+Zero-dependency Python utility for automated file organization. Features watch mode and Windows startup integration.
 
-#### [03] OS-Level File Organizer
-> **Status**: `DEPLOYED` | **Core**: `Python (Native)`, `OS-API`
-*   **The Challenge**: Building a high-performance automation tool with **zero dependencies**.
-*   **Key Implementations**: Event-driven folder monitoring and custom extension-to-category mapping.
-*   **Outcome**: Automated local environment cleanup with Windows Startup integration.
+→ [View Repository](https://github.com/Cyber717/file-organizer)
 
 ---
 
-### 📈 activity_metrics
+## Technical Skills
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Cyber717&theme=tokyonight&hide_border=true&background=0D1117&stroke=5eead4&ring=5eead4&fire=5eead4&sideNums=a9b1d6&sideLabels=a9b1d6&dates=a9b1d6" alt="GitHub Streak" />
-</div>
+**Languages:** Python, C++, JavaScript, MATLAB  
+**Domains:** Control Systems, Computer Vision, Path Planning, GUI Development  
+**Tools:** OpenCV, NumPy, Git, SolidWorks, Fusion 360
 
-<br>
+---
 
-```bash
-cyber717@portfolio:~$ logout
-Connection to github.com closed.
-```
+## Contact
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=30&section=footer&fontSize=12&text=%20&fontAlign=80" />
-</div>
+[LinkedIn](https://linkedin.com/in/yourprofile) · [Email](mailto:your.email@example.com)
